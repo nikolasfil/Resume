@@ -1,0 +1,22 @@
+{
+  "meta": {
+    "title": "Blog",
+    "description": "Technical articles, research notes, and cybersecurity insights."
+  },
+  "blog": {
+    "enabled": true,
+    "title": "Latest Blog Posts",
+    "highlight": "Blog",
+    "posts": [
+      {
+        "id": "post-1",
+        "title": "Hosting UNIHACK 2025 in Patras",
+        "excerpt": "A recap of my experience hosting UNIHACK 2025 in Patras, Greece, including 6 challenges and successes of organizing a local hub in Patras.",
+        "date": "2025-12-13",
+        "tags": ["UNIHACK", "CTF", "Cybersecurity", "Hackathon"],
+        "url": "",
+        "readingTime": "10 min read"
+      }
+    ]
+  }
+}

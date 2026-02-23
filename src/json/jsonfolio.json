@@ -1,0 +1,1448 @@
+{
+  "meta": {
+    "title": "Nikolas Filippatos - Portfolio",
+    "description": "Cybersecurity Research Associate, focused on offensive security, training, and CTF tooling.",
+    "favicon": "/favicon.ico"
+  },
+  "header": {
+    "enabled": true,
+    "logo": {
+      "text": "Nikolas Filippatos"
+    },
+    "navLinks": [
+      {
+        "label": "About",
+        "section": "about",
+        "navEligibleForDesktop": true,
+        "navEligibleForMobile": true
+      },
+      {
+        "label": "Skills",
+        "section": "skills",
+        "navEligibleForDesktop": false,
+        "navEligibleForMobile": false
+      },
+      {
+        "label": "Publications",
+        "section": "publications",
+        "navEligibleForDesktop": true,
+        "navEligibleForMobile": true
+      },
+      {
+        "label": "Experience",
+        "section": "experience",
+        "navEligibleForDesktop": true,
+        "navEligibleForMobile": true
+      },
+      {
+        "label": "Projects",
+        "section": "portfolio",
+        "navEligibleForDesktop": true,
+        "navEligibleForMobile": true
+      },
+      {
+        "label": "Education",
+        "section": "education",
+        "navEligibleForDesktop": false,
+        "navEligibleForMobile": false
+      },
+      {
+        "label": "Achievements",
+        "section": "achievements",
+        "navEligibleForDesktop": true,
+        "navEligibleForMobile": true
+      },
+      {
+        "label": "Testimonials",
+        "section": "testimonials",
+        "navEligibleForDesktop": false,
+        "navEligibleForMobile": false
+      },
+      {
+        "label": "Contact",
+        "section": "contact",
+        "navEligibleForDesktop": true,
+        "navEligibleForMobile": true
+      }
+    ]
+  },
+  "codeElements": [
+    {
+      "text": "nmap -sC -sV target.local",
+      "x": 8,
+      "y": 12,
+      "delay": 0
+    },
+    {
+      "text": "const payload = craftExploit(bufferOverflow)",
+      "x": 78,
+      "y": 28,
+      "delay": 0.2
+    },
+    {
+      "text": "hashcat -m 0 hashes.txt rockyou.txt",
+      "x": 22,
+      "y": 60,
+      "delay": 0.4
+    },
+    {
+      "text": "sqlmap -u 'https://target/app?id=1' --dump",
+      "x": 60,
+      "y": 82,
+      "delay": 0.6
+    },
+    {
+      "text": "if (authBypass) escalatePrivileges();",
+      "x": 14,
+      "y": 5,
+      "delay": 0.8
+    },
+    {
+      "text": "sniffTraffic(interface='eth0')",
+      "x": 70,
+      "y": 48,
+      "delay": 1.0
+    },
+    {
+      "text": "msfconsole -x 'use exploit/multi/handler'",
+      "x": 35,
+      "y": 72,
+      "delay": 1.2
+    },
+    {
+      "text": "analyzePacket(pcap).findIndicators()",
+      "x": 88,
+      "y": 65,
+      "delay": 1.4
+    },
+    {
+      "text": "jwt.verify(token) === false",
+      "x": 18,
+      "y": 38,
+      "delay": 1.6
+    },
+    {
+      "text": "while(defense) { adaptAttack(); }",
+      "x": 55,
+      "y": 15,
+      "delay": 1.8
+    }
+  ],
+
+  "codeElementsDev": [
+    {
+      "text": "console.log('Hello World')",
+      "x": 5,
+      "y": 15,
+      "delay": 0
+    },
+    {
+      "text": "function innovate()",
+      "x": 85,
+      "y": 35,
+      "delay": 0.3
+    },
+    {
+      "text": "const passion = 'coding'",
+      "x": 25,
+      "y": 65,
+      "delay": 0.5
+    },
+    {
+      "text": "return <Success />",
+      "x": 65,
+      "y": 85,
+      "delay": 0.7
+    },
+    {
+      "text": "// Keep building",
+      "x": 15,
+      "y": 5,
+      "delay": 0.9
+    },
+    {
+      "text": "if (problem) { solve() }",
+      "x": 70,
+      "y": 45,
+      "delay": 1.1
+    }
+  ],
+  "intro": {
+    "index": 1,
+    "enabled": true,
+    "tagline": "< Hello, I'm Nikolas Filippatos />",
+    "professional": "{Cybersecurity Researcher}",
+    "description": "I'm a <b>Cybersecurity Research Associate</b> at the <b>University of Patras</b>, working on research and tooling around <b>network security</b>, honeypot development, and hands-on offensive/defensive experimentation.\n\nMy work spans <b>containerized testbeds</b> (Docker/Kubernetes), <b>Linux</b> and network security, and building automation in <b>Python</b>. I’m also active in the CTF community-participating, organizing events, and creating challenges, with a focus on <b>miscellaneous</b> and <b>forensics</b>.\n\nIf you’re interested in collaborating on research, security engineering, or educational content, feel free to reach out.",
+    "avatar": {
+      "enabled": false,
+      "image": "/john-doe-avatar.gif",
+      "alt": "John Deo 3D Avatar"
+    },
+    "cta": {
+      "resumeUrl": "https://github.com/nikolasfil/Resume/blob/main/out/pdf/Nikolas_Filippatos_CV.pdf",
+      "buttonText": "Download CV",
+      "resumeFileName": "Nikolas_Filippatos_CV.pdf"
+    },
+    "more": [
+      "Cybersecurity Research Associate at University of Patras, focused on 5G security, training, and CTF tooling.",
+      "Experience with containerized testbeds (Docker/Kubernetes), Linux/network security, and Python automation.",
+      "Active in the CTF community: organizing, participating, and creating challenges (misc/forensics).",
+      "Open to research, security engineering, or educational collaborations."
+    ]
+  },
+  "stats": {
+    "enabled": true,
+    "items": [
+      {
+        "value": "2024–",
+        "label": "Researcher"
+      },
+      {
+        "value": "7+",
+        "label": "Projects"
+      },
+      {
+        "value": "15+",
+        "label": "Competitions"
+      },
+      {
+        "value": "2",
+        "label": "Publications"
+      }
+    ]
+  },
+  "skills": {
+    "index": 2,
+    "enabled": true,
+    "title": "Skills",
+    "highlight": "Skills",
+    "categories": [
+      {
+        "name": "Programming",
+        "highlight": "Programming",
+        "items": ["Python", "JavaScript", "Node.js", "SQL", "Git"]
+      },
+      {
+        "name": "Cybersecurity",
+        "highlight": "Cybersecurity",
+        "items": [
+          "Web Exploitation",
+          "Forensics",
+          "Pwn",
+          "Network Analysis",
+          "Linux Security",
+          "CTF Challenge Development"
+        ]
+      },
+      {
+        "name": "Tools",
+        "highlight": "Tools",
+        "items": [
+          "Docker",
+          "Snort",
+          "Virtual Machines",
+          "SQLite",
+          "Wireshark",
+          "Fail2ban",
+          "iptables"
+        ]
+      },
+      {
+        "name": "Soft Skills",
+        "highlight": "Soft Skills",
+        "items": [
+          "Leadership",
+          "Teamwork",
+          "Communication",
+          "Adaptability",
+          "Organization"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "highlight": "Web",
+        "items": ["NodeJS", "JavaScript", "Express-Handlebars"]
+      },
+      {
+        "name": "Virtualization",
+        "highlight": "Virtualization",
+        "items": ["Docker Compose", "Docker"]
+      }
+    ],
+    "more": {
+      "categories": [
+        {
+          "name": "Programming",
+          "highlight": "Programming",
+          "items": ["Python", "JavaScript", "Node.js", "SQL", "Git"]
+        },
+        {
+          "name": "Cybersecurity",
+          "highlight": "Cybersecurity",
+          "items": [
+            "Web Exploitation",
+            "Forensics",
+            "Pwn",
+            "Network Analysis",
+            "Linux Security",
+            "CTF Challenge Development"
+          ]
+        },
+        {
+          "name": "Tools",
+          "highlight": "Tools",
+          "items": [
+            "Docker",
+            "Snort",
+            "Virtual Machines",
+            "SQLite",
+            "Wireshark",
+            "Fail2ban",
+            "iptables"
+          ]
+        },
+        {
+          "name": "Soft Skills",
+          "highlight": "Soft Skills",
+          "items": [
+            "Leadership",
+            "Teamwork",
+            "Communication",
+            "Adaptability",
+            "Organization"
+          ]
+        },
+        {
+          "name": "Web Development",
+          "highlight": "Web",
+          "items": ["NodeJS", "JavaScript", "Express-Handlebars"]
+        },
+        {
+          "name": "Virtualization",
+          "highlight": "Virtualization",
+          "items": ["Docker Compose"]
+        }
+      ]
+    }
+  },
+  "education": {
+    "index": 3,
+    "enabled": true,
+    "title": "Education",
+    "highlight": "Education",
+    "items": [
+      {
+        "degree": "Integrated Master",
+        "stream": "Electrical and Computer Engineering",
+        "institute": "University of Patras",
+        "result": "",
+        "duration": "2019 - Present",
+        "location": "Patras, Greece"
+      }
+    ],
+    "more": {
+      "index": 5,
+      "enabled": true,
+      "title": "Education",
+      "highlight": "Education",
+      "items": [
+        {
+          "degree": "Integrated Master",
+          "stream": "Electrical and Computer Engineering",
+          "institute": "University of Patras",
+          "result": "",
+          "duration": "2019 - Present",
+          "location": "Patras, Greece"
+        }
+      ]
+    }
+  },
+  "experience": {
+    "index": 4,
+    "enabled": true,
+    "title": "Work Experience",
+    "highlight": "Experience",
+    "items": [
+      {
+        "id": 1,
+        "title": "Cybersecurity Research Associate",
+        "period": "April 2024 - Present",
+        "company": "University of Patras",
+        "location": "Patras, Greece",
+        "description": [
+          "Research and engineering for security experimentation and training environments",
+          "Contribute to technical documentation, demos, and research outputs",
+          "Build automation and tooling in Python; containerize deployments with Docker/Kubernetes"
+        ],
+        "tags": ["5G Security", "Python", "Docker", "Kubernetes", "Research"]
+      },
+      {
+        "id": 2,
+        "title": "Lab Assistant - Database Management",
+        "period": "Oct 2023 - Jan 2024",
+        "company": "University of Patras",
+        "location": "Patras, Greece",
+        "description": [
+          "Supervised weekly labs for 40 students, assisting with SQL and database concepts",
+          "Provided on-the-spot debugging, problem-solving and guidance"
+        ],
+        "tags": ["Teaching", "Labs", "University"]
+      },
+      {
+        "id": 3,
+        "title": "Lab Assistant - Website Development",
+        "period": "Feb 2023 - Present",
+        "company": "University of Patras",
+        "location": "Patras, Greece",
+        "description": [
+          "Led 2-hour weekly labs for 40+ students covering Node.js, Handlebars, CSS and JavaScript",
+          "Answered technical questions and supported project development"
+        ],
+        "tags": ["Teaching", "Labs", "University"]
+      }
+    ],
+    "more": {
+      "index": 4,
+      "enabled": true,
+      "title": "Work Experience",
+      "highlight": "Experience",
+      "items": [
+        {
+          "id": 1,
+          "title": "Cybersecurity Research Associate",
+          "period": "April 2024 - Present",
+          "company": "University of Patras",
+          "location": "Patras, Greece",
+          "description": [
+            "Research and engineering for security experimentation and training environments",
+            "Contribute to technical documentation, demos, and research outputs",
+            "Build automation and tooling in Python; containerize deployments with Docker/Kubernetes"
+          ],
+          "tags": ["5G Security", "Python", "Docker", "Kubernetes", "Research"]
+        },
+        {
+          "id": 2,
+          "title": "Lab Assistant - Database Management",
+          "period": "Oct 2023 - Jan 2024",
+          "company": "University of Patras",
+          "location": "Patras, Greece",
+          "description": [
+            "Supervised weekly labs for 40 students, assisting with SQL and database concepts",
+            "Provided on-the-spot debugging, problem-solving and guidance"
+          ],
+          "tags": ["Teaching", "Labs", "University"]
+        },
+        {
+          "id": 3,
+          "title": "Lab Assistant - Website Development",
+          "period": "Feb 2023 - Present",
+          "company": "University of Patras",
+          "location": "Patras, Greece",
+          "description": [
+            "Led 2-hour weekly labs for 40+ students covering Node.js, Handlebars, CSS and JavaScript",
+            "Answered technical questions and supported project development"
+          ],
+          "tags": ["Teaching", "Labs", "University"]
+        }
+      ]
+    }
+  },
+  "publications": {
+    "index": 5,
+    "enabled": true,
+    "title": "Publications",
+    "highlight": "Publications",
+    "displayLimit": 3,
+    "showMoreText": "View All Articles",
+    "items": [
+      {
+        "title": "A large scale analysis of code security in public repositories",
+        "description": "This paper explores the code analysis features of the proposed platform were used in a large scale analysis on 10,855 public repositories.",
+        "url": "https://link.springer.com/article/10.1007/s10207-025-01187-w",
+        "platform": "International Journal of Information Security",
+        "date": "2026",
+        "type": "Article",
+        "image": "/images/magazine.png",
+        "tags": ["opensource", "code analysis", "vulnerability detection"]
+      },
+      {
+        "title": "A Practical Assessment of IDS and IPS Capabilities in a 5G Network Testbed",
+        "description": "This paper presents a comprehensive assessment of Intrusion Detection Systems (IDS) and Intrusion Prevention Systems (IPS) within a 5G network testbed. We evaluate the performance, accuracy, and effectiveness of various IDS/IPS solutions in detecting and mitigating cyber threats specific to 5G environments.",
+        "url": "https://ieeexplore.ieee.org/document/11349448",
+        "platform": "IEEE NFV-SDN 2025",
+        "date": "2026",
+        "type": "Conference Paper",
+        "image": "/images/magazine.png",
+        "tags": ["5G", "IDS/IPS", "Security Testbed"]
+      }
+    ]
+  },
+  "projects": {
+    "index": 6,
+    "enabled": true,
+    "title": "Featured Projects",
+    "highlight": "Projects",
+    "homepage": ["iotproject", "computerattack"],
+    "items": [
+      {
+        "title": "IOT Project",
+        "description": "An infrastructure managing IOT tracker and buttons, connected to Fiware. It consists of 2 servers used for IOT communication, an express website server, a temporary server for the database and an MQTT publisher for virtual sensors.",
+        "githubLink": "https://github.com/nikolasfil/IOT-Project-2023",
+        "liveLink": "",
+        "technologies": [
+          "Docker",
+          "API",
+          "NodeJs",
+          "CSS",
+          "Javascript",
+          "Express Handlebars",
+          "SQLite",
+          "Python",
+          "MQTT Broker",
+          "Flask Framework"
+        ],
+        "type": "Project",
+        "nickname": "iotproject"
+      },
+      {
+        "title": "Simulating Attack on a Computer System",
+        "description": "A vulnerability assessment of a virtual machine. To gain access to the machine, four steps were followed: enumeration of the ports, identifying vulnerabilities, exploiting the vulnerabilities and elevating privileges for root user access.",
+        "githubLink": "https://github.com/nikolasfil/ComputerSecurityProject",
+        "liveLink": "",
+        "technologies": [
+          "nmap",
+          "hydra",
+          "johnny",
+          "linux",
+          "enumeration",
+          "zip-cracking",
+          "exploit-db"
+        ],
+        "type": "Project",
+        "nickname": "computerattack"
+      },
+      {
+        "title": "Web Server Hardening",
+        "description": "Setting up and securing a Linux web server. Using a virtual machine, set up a Linux web server using a headless Debian distro, configured the firewall and a fail2ban system to prevent brute force attacks, learned basic concepts of private-public key cryptography for more secure communication, set up a cloud instance, configured a custom DNS server and attempted a DNS caching attack from an external attacker's point of view.",
+        "githubLink": "https://github.com/nikolasfil/ModernCyberApplications",
+        "liveLink": "",
+        "technologies": [
+          "linux",
+          "firewall",
+          "iptables",
+          "fail2ban",
+          "virtual-machine",
+          "ssh",
+          "openssl",
+          "dns-caching",
+          "dns attacks",
+          "networking",
+          "cloud"
+        ],
+        "type": "Project",
+        "nickname": "computerattack"
+      },
+      {
+        "title": "Fullstack website Development: Bilbo",
+        "description": "Bilbo is a website managing libraries. Developed using Node.js, Handlebars and SQLite as the database model.",
+        "githubLink": "https://github.com/nikolasfil/Bilbo",
+        "liveLink": "",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Node.js",
+          "Express",
+          "Express.js",
+          "Handlebars.js",
+          "SQLite",
+          "Full-Stack Development",
+          "JavaScript",
+          "SQL"
+        ],
+        "type": "Project",
+        "nickname": "bilbo"
+      },
+      {
+        "title": "Advanced Programming Techniques Project",
+        "description": "A three part project used to demonstrate code testing, version control with git and GitHub, and dockerization using an MQTT server.",
+        "githubLink": "https://github.com/nikolasfil/AdvancedProgrammingProject",
+        "liveLink": "",
+        "technologies": [
+          "python",
+          "testing",
+          "docker",
+          "git",
+          "github",
+          "networking",
+          "http",
+          "mqtt"
+        ],
+        "type": "Project",
+        "nickname": "advancedprogramming"
+      },
+      {
+        "title": "Database Project",
+        "description": "A command line application managing charging stations for electrical cars. The database model is written in SQLite; the application and database management are in Python.",
+        "githubLink": "https://github.com/nikolasfil/Database-Charging-Stations",
+        "liveLink": "",
+        "technologies": ["SQLite", "Python (Programming Language)", "SQL"],
+        "type": "Project"
+      },
+      {
+        "title": "CTF Challenges",
+        "description": "Created Capture The Flag challenges in the categories Miscellaneous and Forensics to teach practical cybersecurity skills.",
+        "githubLink": "https://github.com/nikolasfil/CTF",
+        "liveLink": "",
+        "technologies": ["Python", "steganography", "networking"],
+        "type": "Project",
+        "nickname": "ctfchallenges"
+      }
+    ],
+    "more": {
+      "index": 6,
+      "enabled": true,
+      "title": "Featured Projects",
+      "highlight": "Projects",
+      "items": [
+        {
+          "title": "IOT Project",
+          "description": "An infrastructure managing IOT tracker and buttons, connected to Fiware. It consists of 2 servers used for IOT communication, an express website server, a temporary server for the database and an MQTT publisher for virtual sensors.",
+          "githubLink": "https://github.com/nikolasfil/IOT-Project-2023",
+          "liveLink": "",
+          "technologies": [
+            "Docker",
+            "API",
+            "NodeJs",
+            "CSS",
+            "Javascript",
+            "Express Handlebars",
+            "SQLite",
+            "Python",
+            "MQTT Broker",
+            "Flask Framework"
+          ],
+          "type": "Project"
+        },
+        {
+          "title": "Simulating Attack on a Computer System",
+          "description": "A vulnerability assessment of a virtual machine. To gain access to the machine, four steps were followed: enumeration of the ports, identifying vulnerabilities, exploiting the vulnerabilities and elevating privileges for root user access.",
+          "githubLink": "https://github.com/nikolasfil/ComputerSecurityProject",
+          "liveLink": "",
+          "technologies": [
+            "nmap",
+            "hydra",
+            "johnny",
+            "linux",
+            "enumeration",
+            "zip-cracking",
+            "exploit-db"
+          ],
+          "type": "Project"
+        },
+        {
+          "title": "Web Server Hardening",
+          "description": "Setting up and securing a Linux web server. Using a virtual machine, set up a Linux web server using a headless Debian distro, configured the firewall and a fail2ban system to prevent brute force attacks, learned basic concepts of private-public key cryptography for more secure communication, set up a cloud instance, configured a custom DNS server and attempted a DNS caching attack from an external attacker's point of view.",
+          "githubLink": "https://github.com/nikolasfil/ModernCyberApplications",
+          "liveLink": "",
+          "technologies": [
+            "linux",
+            "firewall",
+            "iptables",
+            "fail2ban",
+            "virtual-machine",
+            "ssh",
+            "openssl",
+            "dns-caching",
+            "dns attacks",
+            "networking",
+            "cloud"
+          ],
+          "type": "Project"
+        },
+        {
+          "title": "Fullstack website Development: Bilbo",
+          "description": "Bilbo is a website managing libraries. Developed using Node.js, Handlebars and SQLite as the database model.",
+          "githubLink": "https://github.com/nikolasfil/Bilbo",
+          "liveLink": "https://bilbolibrary.herokuapp.com/",
+          "technologies": [
+            "HTML",
+            "CSS",
+            "Node.js",
+            "Express",
+            "Express.js",
+            "Handlebars.js",
+            "SQLite",
+            "Full-Stack Development",
+            "JavaScript",
+            "SQL"
+          ],
+          "type": "Project"
+        },
+        {
+          "title": "Advanced Programming Techniques Project",
+          "description": "A three part project used to demonstrate code testing, version control with git and GitHub, and dockerization using an MQTT server.",
+          "githubLink": "https://github.com/nikolasfil/AdvancedProgrammingProject",
+          "liveLink": "",
+          "technologies": [
+            "python",
+            "testing",
+            "docker",
+            "git",
+            "github",
+            "networking",
+            "http",
+            "mqtt"
+          ],
+          "type": "Project"
+        },
+        {
+          "title": "Database Project",
+          "description": "A command line application managing charging stations for electrical cars. The database model is written in SQLite; the application and database management are in Python.",
+          "githubLink": "https://github.com/nikolasfil/Database-Charging-Stations",
+          "liveLink": "",
+          "technologies": ["SQLite", "Python (Programming Language)", "SQL"],
+          "type": "Project"
+        },
+        {
+          "title": "CTF Challenges",
+          "description": "Created Capture The Flag challenges in the categories Miscellaneous and Forensics to teach practical cybersecurity skills.",
+          "githubLink": "https://github.com/nikolasfil/CTF",
+          "liveLink": "",
+          "technologies": ["Python", "steganography", "networking"],
+          "type": "Project"
+        }
+      ]
+    }
+  },
+  "achievements": {
+    "index": 8,
+    "enabled": true,
+    "title": "Highlights",
+    "highlight": "Highlights",
+    "description": [
+      "Executive Chair - IEEE Student Branch University of Patras (team of 25+ volunteers)",
+      "Cybersecurity Study Group Coordinator - IEEE SB UPatras (hands-on training & mentoring)",
+      "CTF Challenge Author & Organizer - UniHack 2025 CTF (University of Patras)",
+      "Selected competition results:",
+      "GRCSC CTF Competition 2025 - 2nd",
+      "ReplyCode Challenge 2025 - 249th",
+      "HTB Cyber Apocalypse CTF Competition 2025 - 434th",
+      "NTUA Hack3.0 CTF Competition - 2nd",
+      "University CTF 2024: Binary Badlands - 125th",
+      "NTUA Hack2.0 CTF Competition - 2nd"
+    ],
+    "certifications": [
+      {
+        "name": "Reverse Engineering 101",
+        "issuer": "Kaspersky, Computer and Network Security",
+        "icon": "",
+        "url": ""
+      },
+      {
+        "name": "SQL Injection Attacks",
+        "issuer": "EC-Council, codered",
+        "icon": "",
+        "url": ""
+      }
+    ],
+    "more": {
+      "index": 7,
+      "enabled": true,
+      "title": "Highlights",
+      "highlight": "Highlights",
+      "description": [
+        "Executive Chair - IEEE Student Branch University of Patras (team of 25+ volunteers)",
+        "Cybersecurity Study Group Coordinator - IEEE SB UPatras (hands-on training & mentoring)",
+        "CTF Challenge Author & Organizer - UniHack 2025 CTF (University of Patras)",
+        "Selected competition results:",
+        "GRCSC CTF Competition 2025 - 2nd",
+        "ReplyCode Challenge 2025 - 249th",
+        "HTB Cyber Apocalypse CTF Competition 2025 - 434th",
+        "NTUA Hack3.0 CTF Competition - 2nd",
+        "University CTF 2024: Binary Badlands - 125th",
+        "NTUA Hack2.0 CTF Competition - 2nd"
+      ],
+      "certifications": [
+        {
+          "name": "Reverse Engineering 101",
+          "issuer": "Kaspersky, Computer and Network Security",
+          "icon": "",
+          "url": ""
+        },
+        {
+          "name": "SQL Injection Attacks",
+          "issuer": "EC-Council, codered",
+          "icon": "",
+          "url": ""
+        }
+      ]
+    }
+  },
+  "testimonials": {
+    "enabled": false,
+    "title": "Client Testimonials",
+    "highlight": "Testimonials",
+    "items": []
+  },
+  "contact": {
+    "index": 190,
+    "enabled": true,
+    "title": "Get In Touch",
+    "highlight": "Contact",
+    "email": "filippatos.nikolas@gmail.com",
+    "location": "Patras, Greece",
+    "socialLinks": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/nikolasfil",
+        "icon": "FiGithub"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/nikolas-filippatos/",
+        "icon": "FiLinkedin"
+      },
+      {
+        "name": "TryHackMe",
+        "url": "https://tryhackme.com/p/nikolasfil",
+        "icon": "FiTryhackme"
+      },
+      {
+        "name": "HackTheBox",
+        "url": "https://app.hackthebox.com/profile/1057635",
+        "icon": "SiHackthebox"
+      },
+      {
+        "name": "picoCTF",
+        "url": "https://play.picoctf.org/users/nikolasfil",
+        "icon": "FiFlag"
+      },
+      {
+        "name": "CTFlearn",
+        "url": "https://ctflearn.com/user/nikolasfil",
+        "icon": "FiFlag"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:filippatos.nikolas@gmail.com",
+        "icon": "FiMail"
+      }
+    ],
+    "more": {
+      "index": 190,
+      "enabled": true,
+      "title": "Get In Touch",
+      "highlight": "Contact",
+      "email": "filippatos.nikolas@gmail.com",
+      "location": "Patras, Greece",
+      "socialLinks": [
+        {
+          "name": "GitHub",
+          "url": "https://github.com/nikolasfil",
+          "icon": "FiGithub"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/nikolas-filippatos/",
+          "icon": "FiLinkedin"
+        },
+        {
+          "name": "TryHackMe",
+          "url": "https://tryhackme.com/p/nikolasfil",
+          "icon": "SiTryhackme"
+        },
+        {
+          "name": "HackTheBox",
+          "url": "https://app.hackthebox.com/profile/1057635",
+          "icon": "SiHackthebox"
+        },
+        {
+          "name": "picoCTF",
+          "url": "https://play.picoctf.org/users/nikolasfil",
+          "icon": "FiFlag"
+        },
+        {
+          "name": "CTFlearn",
+          "url": "https://ctflearn.com/user/nikolasfil",
+          "icon": "FiFlag"
+        },
+        {
+          "name": "Email",
+          "url": "mailto:filippatos.nikolas@gmail.com",
+          "icon": "FiMail"
+        }
+      ]
+    }
+  },
+
+  "contactForm": {
+    "enabled": true,
+    "emailJsConfig": {
+      "serviceId": "",
+      "templateId": "",
+      "publicKey": ""
+    },
+    "formFields": {
+      "name": {
+        "label": "Your Name",
+        "placeholder": "Enter your full name"
+      },
+      "email": {
+        "label": "Email Address",
+        "placeholder": "your.email@example.com"
+      },
+      "phone": {
+        "label": "Phone Number",
+        "placeholder": "(123) 456-7890"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Project inquiry or collaboration"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell me about your project..."
+      }
+    },
+    "submitButton": {
+      "text": "Send Message",
+      "sendingText": "Sending..."
+    },
+    "successMessage": "Thank you! Your message has been sent successfully.",
+    "errorMessage": "Oops! Something went wrong. Please try again.",
+    "validationMessages": {
+      "name": "Please enter your name",
+      "email": "Please enter a valid email",
+      "messageMin": "Message is too short",
+      "messageMax": "Message is too long",
+      "subject": "Please enter a subject"
+    }
+  },
+  "quote": {
+    "index": 200,
+    "enabled": true,
+    "text": "Build. Break. Learn. Repeat."
+  },
+  "footer": {
+    "enabled": true,
+    "text": "© {year} Nikolas Filippatos. All rights reserved."
+  },
+  "tracking": {
+    "enabled": true,
+    "googleAnalytics": {
+      "enabled": false,
+      "googleTag": "GA-123456789"
+    },
+
+    "googleForm": {
+      "enabled": true,
+      "actionUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfMK9NDQ3PQXj4s5gFwntNTFGGhvxp3anlKrE29x850ijB3Ow/formResponse",
+      "fields": {
+        "timestamp": "entry.1234567890",
+        "eventType": "entry.0987654321",
+        "ipAddress": "entry.1122334455",
+        "userAgent": "entry.5566778899",
+        "country": "entry.6677889900",
+        "additionalData": "entry.7788990011",
+        "name": "entry.449055977",
+        "email": "entry.1753761619",
+        "message": "entry.692862231",
+        "subject": "entry.1601991014",
+        "company": "entry.1446715994",
+        "phone": "entry.1971481135"
+      }
+    },
+    "ipServices": {
+      "ipLookup": "https://api.ipify.org?format=json",
+      "geoLookup": "https://ipapi.co/{ip}/json/"
+    },
+    "sourceDetection": {
+      "ignoreParam": "ref",
+      "ignoreValue": "no-track",
+      "referrers": {
+        "linkedin": "linkedin",
+        "github": "github",
+        "twitter": "twitter",
+        "medium": "medium",
+        "stackoverflow": "stackoverflow"
+      },
+      "defaultSource": "direct"
+    }
+  },
+  "volunteering": {
+    "enabled": true,
+    "index": 9,
+    "title": "Volunteering",
+    "highlight": "ing",
+    "items": [
+      {
+        "id": 1,
+        "title": "Executive Chair",
+        "company": "IEEE Student Branch University of Patras",
+        "period": "May 2023 - Sep 2024",
+        "description": [
+          "Managed 25 volunteers within a 100+ member branch",
+          "Organized events, external collaborations and community initiatives",
+          "As the Chair of the student branch, I am in charge of organizing and overseeing the executive committee(5 positions) , representing the branch in public events ,managing external affairs and keeping track of the overall progress of the organization ."
+        ],
+        "tags": [
+          "Leadership",
+          "Communication",
+          "Project Management",
+          "Teamwork"
+        ]
+      },
+      {
+        "id": 2,
+
+        "title": "Cybersecurity Study Group Coordinator",
+        "company": "IEEE Student Branch, University of Patras",
+        "period": "Oct 2023 - Sep 2024",
+        "description": [
+          "Led sessions for 15 students on vulnerability discovery and exploitation",
+          "Prepared hands-on labs and guided practical cybersecurity training",
+          "In the scientific group we are learning about cybersecurity,identifying vulnerabilities and exploiting them, learning tools and techniques through cybersecurity challenges, such as ctf, tryhackme, hackthebox .",
+          "As a coordinator I am in charge of preparing for the meeting, finding useful material and challenges , presenting them , helping the group progress and assign homework to further the group's progress."
+        ],
+        "tags": ["Cybersecurity", "Teamwork", "Ethical Hacking"]
+      },
+      {
+        "id": 3,
+        "title": "Competitive Programming Coordinator",
+        "company": "IEEE Student Branch, University of Patras",
+        "period": "Feb 2022 - May 2023",
+        "description": [
+          "Coordinated weekly algorithmic problem-solving sessions for 20 students",
+          "Prepared participants for national and international programming contests",
+          "Coordinated meetings to learn about Competitive Programming and take part in competitions. Managed an average of 20 people per meeting. As group, we participated in 5 Programming Competitions"
+        ],
+        "tags": [
+          "Teaching ",
+          "Problem Solving ",
+          "Team Coordination ",
+          "Teamwork ",
+          "Python (Programming Language) ",
+          "Competitive Programming"
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Event Organizer and author",
+        "company": "ISSG, University of Patras",
+        "period": "December 13 2025",
+        "description": [
+          "Organized the Unihack 2025 CTF event, managing logistics and participant coordination in the University of Patras",
+          "Authored 6 CTF challenges in forensics and miscellaneous topics for the event",
+          "https://huh.ctflib.eu/"
+        ],
+        "urls": [
+          {
+            "label": "Unihack 2025 CTF",
+            "href": "https://huh.ctflib.eu/"
+          },
+          {
+            "label": "ISSG Unihack Page",
+            "href": "https://issg.gr/unihack2025"
+          }
+        ]
+      }
+    ]
+  },
+  "customSections": [
+    {
+      "index": 11,
+      "enabled": true,
+      "id": "research",
+      "title": "Research & Projects",
+      "description": "Current research initiatives and communities",
+      "type": "info",
+      "content": {
+        "list": [
+          "SAND5G - 5G security experimentation & tooling",
+          "CONSOLE - Security and training for software supply chain / SME needs",
+          "ISSG Hacking Group - training, CTFs, and challenge development"
+        ]
+      }
+    },
+    {
+      "index": 12,
+      "enabled": true,
+      "id": "ctf-profiles",
+      "title": "CTF Profiles",
+      "description": "Active platforms",
+      "type": "links",
+      "content": {
+        "links": [
+          {
+            "label": "TryHackMe",
+            "url": "https://tryhackme.com/p/nikolasfil",
+            "description": "Username: nikolasfil"
+          },
+          {
+            "label": "HackTheBox",
+            "url": "https://app.hackthebox.com/profile/1057635",
+            "description": "Username: nikolasfil"
+          },
+          {
+            "label": "picoCTF",
+            "url": "https://play.picoctf.org/users/nikolasfil",
+            "description": "Username: nikolasfil"
+          },
+          {
+            "label": "CTFlearn",
+            "url": "https://ctflearn.com/user/nikolasfil",
+            "description": "Username: nikolasfil"
+          }
+        ]
+      }
+    },
+    {
+      "index": 13,
+      "enabled": true,
+      "id": "languages",
+      "title": "Languages",
+      "description": "Spoken languages",
+      "type": "info",
+      "content": {
+        "list": ["English - C2", "German - C1"]
+      }
+    }
+  ],
+  "custom_nick": {
+    "competitions_full": {
+      "team_name": "Competitive-Geeks",
+      "items": [
+        {
+          "name": "GRCSC CTF Competition",
+          "year": 2024,
+          "rank": "5th"
+        },
+        {
+          "name": "Cyber Apocalypse CTF Competition",
+          "year": 2024,
+          "rank": "721st"
+        },
+        {
+          "name": "NTUA Hack2.0 CTF Competition",
+          "year": 2023,
+          "rank": "2nd"
+        },
+        {
+          "name": "IEEEXtreme 17.0",
+          "year": 2023,
+          "rank": "National Position: 56th"
+        },
+        {
+          "name": "GRCPC",
+          "year": 2023,
+          "rank": "National Rank: 25st"
+        },
+        {
+          "name": "Teamscode",
+          "year": 2023,
+          "rank": "Global Rank: 136th"
+        },
+        {
+          "name": "ReplyCode",
+          "year": 2023,
+          "rank": "Global Rank: 148th"
+        },
+        {
+          "name": "NTUA Hack CTF Competition",
+          "year": 2022,
+          "rank": "Rank: 6th"
+        },
+        {
+          "name": "Google Hashcode",
+          "year": 2022,
+          "rank": "Global Rank: 834th; National Rank: 4th"
+        },
+        {
+          "name": "IEEEXtreme 16.0",
+          "year": 2022,
+          "rank": "Global Rank: 402nd"
+        }
+      ]
+    },
+    "volunteer_experience_full": [
+      {
+        "title": "Executive Chair",
+        "org": "IEEE Student Branch University of Patras",
+        "institution": "IEEE S.B. UPatras",
+        "date": "May 2023 - Sep 2024",
+        "bullets": [
+          "Managed 25 volunteers within a 100+ member branch",
+          "Organized events, external collaborations and community initiatives",
+          "As the Chair of the student branch, I am in charge of organizing and overseeing the executive committee(5 positions) , representing the branch in public events ,managing external affairs and keeping track of the overall progress of the organization .",
+          "The Computer Society Chapter also falls under my direct supervision, which consists of 4 scientific groups ( Programming, Competitive Programming, Cyber security, Quantum Computing ). I am in charge of the 4 coordinators, one for each SG, keeping close communication with them, assisting and advising them."
+        ],
+        "skills": [
+          "Leadership",
+          "Communication",
+          "Project Management",
+          "Teamwork"
+        ]
+      },
+      {
+        "title": "Cybersecurity Study Group Coordinator",
+        "org": "IEEE Student Branch",
+        "institution": "University of Patras",
+        "date": "Oct 2023 - Sep 2024",
+        "bullets": [
+          "Led sessions for 15 students on vulnerability discovery and exploitation",
+          "Prepared hands-on labs and guided practical cybersecurity training",
+          "As a coordinator I am in charge of preparing for the meeting, finding useful material and challenges , presenting them , helping the group progress and assign homework to further the group's progress.",
+          "In the scientific group we are learning about cybersecurity,identifying vulnerabilities and exploiting them, learning tools and techniques through cybersecurity challenges, such as ctf, tryhackme, hackthebox .",
+          "As a coordinator I am in charge of preparing for the meeting, finding useful material and challenges , presenting them , helping the group progress and assign homework to further the group's progress. In the scientific group we are learning about cybersecurity,identifying vulnerabilities and exploiting them, learning tools and techniques through cybersecurity challenges, such as ctf, tryhackme, hackthebox ."
+        ],
+        "skills": ["Cybersecurity", "Teamwork", "Ethical Hacking"]
+      },
+      {
+        "title": "Competitive Programming Coordinator",
+        "org": "IEEE Student Branch",
+        "institution": "University of Patras",
+        "date": "Feb 2022 - May 2023",
+        "bullets": [
+          "Coordinated weekly algorithmic problem-solving sessions for 20 students",
+          "Prepared participants for national and international programming contests",
+          "Coordinated meetings to learn about Competitive Programming and take part in competitions. Managed an average of 20 people per meeting. As group, we participated in 5 Programming Competitions"
+        ],
+        "skills": [
+          "Teaching ",
+          "Problem Solving ",
+          "Team Coordination ",
+          "Teamwork ",
+          "Python (Programming Language) ",
+          "Competitive Programming"
+        ]
+      },
+      {
+        "title": "Event Organizer and author",
+        "org": "ISSG",
+        "institution": "University of Patras",
+        "date": "December 13 2025",
+        "bullets": [
+          "Organized the Unihack 2025 CTF event, managing logistics and participant coordination in the University of Patras",
+          "Authored 6 CTF challenges in forensics and miscellaneous topics for the event"
+        ],
+        "urls": [
+          {
+            "label": "Unihack 2025 CTF",
+            "href": "https://huh.ctflib.eu/"
+          },
+          {
+            "label": "ISSG Unihack Page",
+            "href": "https://issg.gr/unihack2025"
+          }
+        ]
+      }
+    ],
+    "teaching_experience_full": [
+      {
+        "role": "Lab Assistant",
+        "institution": "University of Patras",
+        "department": "ECE Department",
+        "period": "October 2023 - January 2024",
+        "course": "Database Management (Course Lab)",
+        "description": "Managed 40 students for 2 hours every week, providing help during the lab and answering questions."
+      },
+      {
+        "role": "Lab Assistant",
+        "institution": "University of Patras",
+        "department": "ECE Department",
+        "period": "February 2023 - Present",
+        "course": "Website Development (Course Lab)",
+        "description": "Managed 40 students for 2 hours every week, providing help during the lab and answering questions."
+      }
+    ],
+    "research_projects_details": [
+      {
+        "name": "SAND5G",
+        "description": "EU Funded project ",
+        "url": "https://sand5g.eu/",
+        "duration": "Aug 2024 - Present",
+        "technologies": ["React", "Node.js", "Docker", "Kubernetes"],
+        "responsibilities": [
+          "Implemented security features for 5G network applications",
+          "Conducted vulnerability assessments and penetration testing"
+        ],
+        "bullets": [
+          "Contributed to research papers and technical documentation"
+        ]
+      },
+      {
+        "name": "CONSOLE",
+        "description": "EU Funded project ",
+        "url": "https://www.consoleproject.eu/",
+        "duration": "Aug 2024 - Present",
+        "technologies": ["Docker"],
+        "responsibilities": ["Setup Moodle "],
+        "bullets": [
+          "Contributed to research papers and technical documentation"
+        ]
+      },
+      {
+        "name": "ISSG Hacking Group",
+        "description": "Internal Research Group ",
+        "url": "https://issg.gr",
+        "duration": "Oct 2024 - Present",
+        "technologies": ["Linux"],
+        "responsibilities": ["Setup Moodle "],
+        "bullets": [
+          "Contributed to research papers and technical documentation"
+        ],
+        "activities": {
+          "CTF Participation": [
+            "Organized and participated in Capture The Flag (CTF) competitions focusing on web exploitation, forensics, and binary exploitation",
+            "Developed custom challenges for training sessions"
+          ],
+          "CTF Challenge Development": [
+            "Designed and implemented CTF challenges in web exploitation, forensics, and binary exploitation",
+            "Conducted workshops to teach challenge creation techniques"
+          ],
+          "Workshops and Training": [
+            "Conducted workshops on various cybersecurity topics including web exploitation, forensics, and binary exploitation",
+            "Provided hands-on training sessions for students and researchers"
+          ],
+          "Research Contributions": [
+            "Assisted in writing research papers on cybersecurity topics",
+            "Contributed to technical documentation and presentations"
+          ],
+          "CTF Challenge Creation": [
+            "Designed and implemented CTF challenges in web exploitation, forensics, and binary exploitation",
+            "Conducted workshops to teach challenge creation techniques"
+          ]
+        }
+      }
+    ],
+    "projects_full": [
+      {
+        "name": "IOT Project",
+        "period": "Dec 2023 - Feb 2024",
+        "description": "An infrastructure managing IOT tracker and buttons, connected to Fiware. It consists of 2 servers used for IOT communication, an express website server, a temporary server for the database and an MQTT publisher for virtual sensors.",
+        "collaborators": ["Agisilaos Kolliopoulos", "Alkiviadis Tzortzakis"],
+        "skills": [
+          "Docker",
+          "API",
+          "NodeJs",
+          "CSS",
+          "Javascript",
+          "Express Handlebars",
+          "SQLite",
+          "Python",
+          "MQTT Broker",
+          "Flask Framework"
+        ],
+        "github_url": "https://github.com/nikolasfil/IOT-Project-2023"
+      },
+      {
+        "name": "Simulating Attack on a Computer System",
+        "period": "Dec 2023 - Feb 2024",
+        "description": "A vulnerability assessment of a virtual machine. To gain access to the machine, four steps were followed: enumeration of the ports, identifying vulnerabilities, exploiting the vulnerabilities and elevating privileges for root user access.",
+        "collaborators": ["Leandros Arvanitopoulos"],
+        "skills": [
+          "nmap",
+          "hydra",
+          "johnny",
+          "linux",
+          "enumeration",
+          "zip-cracking",
+          "exploit-db"
+        ],
+        "github_url": "https://github.com/nikolasfil/ComputerSecurityProject"
+      },
+      {
+        "name": "Web Server Hardening",
+        "period": "Dec 2023 - Feb 2024",
+        "description": "Setting up and securing a Linux web server. Using a virtual machine, set up a Linux web server using a headless Debian distro, configured the firewall and a fail2ban system to prevent brute force attacks, learned basic concepts of private-public key cryptography for more secure communication, set up a cloud instance, configured a custom DNS server and attempted a DNS caching attack from an external attacker's point of view.",
+        "skills": [
+          "linux",
+          "firewall",
+          "iptables",
+          "fail2ban",
+          "virtual-machine",
+          "ssh",
+          "openssl",
+          "dns-caching",
+          "dns attacks",
+          "networking",
+          "cloud"
+        ],
+        "github_url": "https://github.com/nikolasfil/ModernCyberApplications"
+      },
+      {
+        "name": "Fullstack website Development: Bilbo",
+        "period": "Mar 2023 - Jun 2023",
+        "description": "Bilbo is a website managing libraries. Developed using Node.js, Handlebars and SQLite as the database model.",
+        "collaborators": ["Konstantinos Kotorenis"],
+        "skills": [
+          "HTML",
+          "CSS",
+          "Node.js",
+          "Express",
+          "Express.js",
+          "Handlebars.js",
+          "SQLite",
+          "Full-Stack Development",
+          "JavaScript",
+          "SQL"
+        ],
+        "github_url": "https://github.com/nikolasfil/Bilbo",
+        "live_url": "https://bilbolibrary.herokuapp.com/"
+      },
+      {
+        "name": "Advanced Programming Techniques Project",
+        "period": "April 2023 - Jun 2023",
+        "description": "A three part project used to demonstrate code testing, version control with git and GitHub, and dockerization using an MQTT server.",
+        "skills": [
+          "python",
+          "testing",
+          "docker",
+          "git",
+          "github",
+          "networking",
+          "http",
+          "mqtt"
+        ],
+        "github_url": "https://github.com/nikolasfil/AdvancedProgrammingProject"
+      },
+      {
+        "name": "Database Project",
+        "period": "Nov 2022 - Jan 2023",
+        "description": "A command line application managing charging stations for electrical cars. The database model is written in SQLite; the application and database management are in Python.",
+        "collaborators": ["Alkinoos Alyssandrakis"],
+        "skills": ["SQLite", "Python (Programming Language)", "SQL"],
+        "github_url": "https://github.com/nikolasfil/Database-Charging-Stations"
+      },
+      {
+        "name": "CTF Challenges",
+        "description": "Created Capture The Flag challenges in the categories Miscellaneous and Forensics to teach practical cybersecurity skills.",
+        "skills": ["Python", "steganography", "networking"],
+        "github_url": "https://github.com/nikolasfil/CTF"
+      }
+    ],
+    "language_certifications": [
+      {
+        "language": "English",
+        "flag": "🇬🇧",
+        "level": "C2",
+        "certifications": ["C2"]
+      },
+      {
+        "language": "German",
+        "flag": "🇩🇪",
+        "level": "C1",
+        "certifications": ["C1", "TestDaf"]
+      }
+    ],
+    "core_skills": [
+      "Multitasking",
+      "Teamwork",
+      "Organization",
+      "Communication",
+      "Leadership",
+      "Interpersonal Skills",
+      "Adaptability"
+    ]
+  }
+}
