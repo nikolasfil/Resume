@@ -457,6 +457,36 @@
       },
       {
         "highlight": false,
+        "title": "Suricata Docker SAND5G",
+        "description": "A Dockerized Suricata setup for IDS/IPS experimentation in the SAND5G context, intended for container-based network security testing and monitoring workflows.",
+        "githubLink": "https://github.com/ISSG-UPAT/Suricata-Docker",
+        "liveLink": "",
+        "technologies": ["Docker", "Suricata", "IDS/IPS", "Network Security", "5G Security"],
+        "type": "Project",
+        "nickname": "suricatadockersand5g"
+      },
+      {
+        "highlight": true,
+        "title": "FileAgent SAND5G",
+        "description": "A Python and FastAPI-based file agent for managing custom Snort rules in a containerized environment, including file uploads, rule translation, backups, and duplicate prevention.",
+        "githubLink": "https://github.com/ISSG-UPAT/FileAgent-SAND5G",
+        "liveLink": "",
+        "technologies": ["Python", "FastAPI", "Snort", "Docker", "Automation", "5G Security"],
+        "type": "Project",
+        "nickname": "fileagentsand5g"
+      },
+      {
+        "highlight": true,
+        "title": "Snort Docker SAND5G",
+        "description": "A Docker image and compose-based deployment for Snort 3, built for containerized IDS/IPS usage with custom rules, alert output, and automated rule reload workflows.",
+        "githubLink": "https://github.com/ISSG-UPAT/Snort-Docker-SAND5G",
+        "liveLink": "",
+        "technologies": ["Docker", "Snort 3", "IDS/IPS", "Lua", "Shell", "5G Security"],
+        "type": "Project",
+        "nickname": "snortdockersand5g"
+      },
+      {
+        "highlight": false,
         "title": "IOT Project",
         "description": "An infrastructure managing IOT tracker and buttons, connected to Fiware. It consists of 2 servers used for IOT communication, an express website server, a temporary server for the database and an MQTT publisher for virtual sensors.",
         "githubLink": "https://github.com/nikolasfil/IOT-Project-2023",
